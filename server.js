@@ -10,7 +10,7 @@ require('dotenv').config();
 //this gives us a variable that we can use to run all the methods that are in the express library.
 
 const app = express()
-//the dotenv library lets us grab the POT var from the.env using the magic workds process.env.variableName
+//the dotenv library lets us grab the PORT var from the.env using the magic words process.env.variableName
 
 const PORT = process.env.PORT;
 app.use(express.static('../Beasleydotcom.com'));
